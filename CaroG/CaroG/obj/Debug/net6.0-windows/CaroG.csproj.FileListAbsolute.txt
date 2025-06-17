@@ -1,0 +1,17 @@
+C:\Project caro\CaroG\CaroG\bin\Debug\net6.0-windows\CaroG.exe
+C:\Project caro\CaroG\CaroG\bin\Debug\net6.0-windows\CaroG.deps.json
+C:\Project caro\CaroG\CaroG\bin\Debug\net6.0-windows\CaroG.runtimeconfig.json
+C:\Project caro\CaroG\CaroG\bin\Debug\net6.0-windows\CaroG.dll
+C:\Project caro\CaroG\CaroG\bin\Debug\net6.0-windows\CaroG.pdb
+C:\Project caro\CaroG\CaroG\obj\Debug\net6.0-windows\CaroG.Form1.resources
+C:\Project caro\CaroG\CaroG\obj\Debug\net6.0-windows\CaroG.csproj.GenerateResource.cache
+C:\Project caro\CaroG\CaroG\obj\Debug\net6.0-windows\CaroG.GeneratedMSBuildEditorConfig.editorconfig
+C:\Project caro\CaroG\CaroG\obj\Debug\net6.0-windows\CaroG.AssemblyInfoInputs.cache
+C:\Project caro\CaroG\CaroG\obj\Debug\net6.0-windows\CaroG.AssemblyInfo.cs
+C:\Project caro\CaroG\CaroG\obj\Debug\net6.0-windows\CaroG.csproj.CoreCompileInputs.cache
+C:\Project caro\CaroG\CaroG\obj\Debug\net6.0-windows\CaroG.sourcelink.json
+C:\Project caro\CaroG\CaroG\obj\Debug\net6.0-windows\CaroG.dll
+C:\Project caro\CaroG\CaroG\obj\Debug\net6.0-windows\refint\CaroG.dll
+C:\Project caro\CaroG\CaroG\obj\Debug\net6.0-windows\CaroG.pdb
+C:\Project caro\CaroG\CaroG\obj\Debug\net6.0-windows\CaroG.genruntimeconfig.cache
+C:\Project caro\CaroG\CaroG\obj\Debug\net6.0-windows\ref\CaroG.dll
