@@ -29,8 +29,10 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             pnBoardchess = new Panel();
             pnStatus = new Panel();
+            lbstatus = new Label();
             LBname = new Label();
             tbName = new TextBox();
             panel2 = new Panel();
@@ -44,7 +46,6 @@
             quitToolStripMenuItem = new ToolStripMenuItem();
             tbIPAddress = new TextBox();
             btnConnect = new Button();
-            lbstatus = new Label();
             pnStatus.SuspendLayout();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pbIcon).BeginInit();
@@ -60,6 +61,8 @@
             // 
             // pnStatus
             // 
+            pnStatus.BackColor = SystemColors.Window;
+            pnStatus.BackgroundImage = (Image)resources.GetObject("pnStatus.BackgroundImage");
             pnStatus.BackgroundImageLayout = ImageLayout.Stretch;
             pnStatus.Controls.Add(lbstatus);
             pnStatus.Controls.Add(LBname);
@@ -67,6 +70,17 @@
             pnStatus.Name = "pnStatus";
             pnStatus.Size = new Size(365, 306);
             pnStatus.TabIndex = 1;
+            // 
+            // lbstatus
+            // 
+            lbstatus.AutoSize = true;
+            lbstatus.Font = new Font("Times New Roman", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            lbstatus.ForeColor = SystemColors.ActiveCaptionText;
+            lbstatus.Location = new Point(20, 60);
+            lbstatus.Name = "lbstatus";
+            lbstatus.Size = new Size(63, 22);
+            lbstatus.TabIndex = 1;
+            lbstatus.Text = "Player";
             // 
             // LBname
             // 
@@ -124,7 +138,7 @@
             menuStrip1.Items.AddRange(new ToolStripItem[] { menuToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(1393, 24);
+            menuStrip1.Size = new Size(1370, 24);
             menuStrip1.TabIndex = 5;
             menuStrip1.Text = "menuStrip1";
             // 
@@ -177,23 +191,12 @@
             btnConnect.UseVisualStyleBackColor = true;
             btnConnect.Click += btnConnect_Click;
             // 
-            // lbstatus
-            // 
-            lbstatus.AutoSize = true;
-            lbstatus.Font = new Font("Times New Roman", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            lbstatus.ForeColor = SystemColors.ActiveCaptionText;
-            lbstatus.Location = new Point(20, 60);
-            lbstatus.Name = "lbstatus";
-            lbstatus.Size = new Size(59, 22);
-            lbstatus.TabIndex = 1;
-            lbstatus.Text = "label1";
-            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1393, 878);
             BackColor = SystemColors.WindowFrame;
+            ClientSize = new Size(1370, 749);
             Controls.Add(btnConnect);
             Controls.Add(tbIPAddress);
             Controls.Add(pgbtime);
@@ -236,7 +239,7 @@
         private ToolStripMenuItem quitToolStripMenuItem;
         private TextBox tbIPAddress;
         private Button btnConnect;
-        private Label LBname;
         public Label lbstatus;
+        private Label LBname;
     }
 }

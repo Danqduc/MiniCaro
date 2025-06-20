@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Project caro\\CaroG\\CaroG\\CaroG.csproj",
+      "projectUniqueName": "C:\\Users\\HVC\\Documents\\GitHub\\MiniCaro\\CaroG\\CaroG\\CaroG.csproj",
       "projectName": "CaroG",
-      "projectPath": "C:\\Project caro\\CaroG\\CaroG\\CaroG.csproj",
+      "projectPath": "C:\\Users\\HVC\\Documents\\GitHub\\MiniCaro\\CaroG\\CaroG\\CaroG.csproj",
       "packagesPath": "C:\\Users\\HVC\\.nuget\\packages\\",
-      "outputPath": "C:\\Project caro\\CaroG\\CaroG\\obj\\",
+      "outputPath": "C:\\Users\\HVC\\Documents\\GitHub\\MiniCaro\\CaroG\\CaroG\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CaroG")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+79e39d1d25b0e2df41a5da283f607fecb366b3fb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+641bfc0b2c7fcd22eaab12261ad0148e84d51843")]
 [assembly: System.Reflection.AssemblyProductAttribute("CaroG")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CaroG")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
